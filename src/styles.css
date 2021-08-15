@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/* @font-face {
+  font-family: "secret_typewriterregular";
+  src: url("veteran_typewriter-webfont.eot");
+  src: url("veteran_typewriter-webfont.eot?#iefix") format("embedded-opentype"),
+    url("veteran_typewriter-webfont.woff2") format("woff2"),
+    url("./fonts/veteran_typewriter-webfont.ttf") format("woff"),
+    url("veteran_typewriter-webfont.ttf") format("truetype"),
+    url("veteran_typewriter-webfont.svg#secret_typewriterregular") format("svg");
+  font-weight: normal;
+  font-style: normal;} */
+
+.App {
+  font-family: Prata;
+  text-align: center;
+}
+body {
+  width: 600px;
+  margin: auto;
+  background-image: url("https://jooinn.com/images/blank-parchment-texture-3.jpg");
+  text-shadow: 2px 2px 6px #000000;
+  /* background-size: cover ; */
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+}
+
+.desc-image {
+  opacity: 0.7;
+  border: 0;
+  box-shadow: 0px 0px 50px #000000 inset;
+}
+
+button:hover {
+  border: 0;
+  background-color: none;
+}
